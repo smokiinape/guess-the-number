@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hI19xh3x0fVTUQ2Nx4UTPwHaE7%26pid%3DApi&f=1&ipt=3aee206d9e0a37a8fd58cfc7f24d5b6b96b152a7a13dd838b66d03fad32d2ef2&ipo=images);
+    background-size: cover;
+
+
+}
+h1,
+h2,
+p{
+    color: #f5f5f5;
+}
+
+h1#h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.alpha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 50px 15px gray;
+    border-radius: 15px;
+    width: 50%;
+    gap: 1rem;
+    background-color: #457b9d;
+
+
+
+}
+
+#input {
+
+    box-shadow: 5px 5px 50px 15px #f1faee inset;
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: #023047;
+}
+
+button#guess {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #90e0ef;
+    font-weight: bolder;
+}
+
+button#again{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #606c38;
+    font-weight: bolder;
+}
+
+button#guess:hover,
+button#again:hover {
+    background-color: white;
+}
+
+button#guess:active,
+button#again:active {
+    transform: scale(1.1);
+}
+
+
+#again {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #40348a;
+    font-weight: bolder;
+}
+
+.beta {
+    font-size: 2rem;
+}
